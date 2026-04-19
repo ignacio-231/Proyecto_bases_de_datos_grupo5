@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} % Recomendado para que diga "Índice" en vez de "Contents"
+\usepackage{graphicx}
+
+\title{Grupo 5 - Hito 1}
+
+% Agregando autores
+\author{Ignacio José Contardo Brito \\ Nombre del Compañero}
+
+\date{Abril 2026}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents % Esto genera el índice automáticamente
+\newpage         % Salto de página para que el contenido empiece limpio
+
+\section{Introduction} %Descripción general del proyecto que se propone y su motivación, la que no debe ser solo aprobar el ramo. Indicar el problema que se resolverá con el desarrollo de un sistema de bases de datos.
+Nuestro problema consiste
+\section{Datos} %Datos: Una descripción general de los datos que debe manejar el sistema que releve tipos de entidades, tipos de interrelaciones, atributos y cardinalidades. Se debe indicar de dónde se pueden obtener los datos, el número de datos esperados en el sistema en un funcionamiento normal, y si lo datos son dinámicos, es decir, se modifican, agregan o eliminan. 
+Al agregar más secciones y volver a compilar, el índice se actualizará solo.
+\section{Requerimientos funcionales} %Requerimientos funcionales del sistema: Se debe especificar si es un sistema que funciona en línea o no, los tipos de consultas de datos esperadas (al menos 5 de ejemplo), si tiene acceso simultáneo por varios usuarios, y los tipos de usuarios
+\begin{enumerate}
+    \item El sistema se podra realizar pedir productos en linea y almacenarlo en un carrito virtual
+    \item El sistema no debe permitir qué clientes qué sobrepasaron el credito .
+    \item El sistema debe cancelar una compra cuando el cliente sobrepase n cantidad de credito
+    \item 
+\subsection{Ejemplos de consultas}
+\end{enumerate}
+\section{Caracteristicas de matención} %Características de escalibilidad/actualización/mantención del sistema: Caracteriza un sistema como solución al problema planteado.
+\section{Interfaz del sistema} %Interfaz del sistema.
+\section{MER}
+\end{document}
