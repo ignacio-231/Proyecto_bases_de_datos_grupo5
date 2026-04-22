@@ -13,15 +13,17 @@
 \begin{document}
 
 \maketitle
-
+a
 \tableofcontents % Esto genera el índice automáticamente
 \newpage         % Salto de página para que el contenido empiece limpio
 
 \section{Introduction} %Descripción general del proyecto que se propone y su motivación, la que no debe ser solo aprobar el ramo. Indicar el problema que se resolverá con el desarrollo de un sistema de bases de datos.
+La empresa qué nos vamos a enforcar es la de una carnicería, qué maneja el credito como medio de pago. El principal problema qué nos menciono el dueño, es qué algunos clientes pagan de manera excesiva con credito. 
 Nuestro problema consiste
 \section{Datos} %Datos: Una descripción general de los datos que debe manejar el sistema que releve tipos de entidades, tipos de interrelaciones, atributos y cardinalidades. Se debe indicar de dónde se pueden obtener los datos, el número de datos esperados en el sistema en un funcionamiento normal, y si lo datos son dinámicos, es decir, se modifican, agregan o eliminan. 
 Al agregar más secciones y volver a compilar, el índice se actualizará solo.
 \section{Requerimientos funcionales} %Requerimientos funcionales del sistema: Se debe especificar si es un sistema que funciona en línea o no, los tipos de consultas de datos esperadas (al menos 5 de ejemplo), si tiene acceso simultáneo por varios usuarios, y los tipos de usuarios
+-  El sistema debe estar en constanemente en linea, y puedo funcionar sin la necesidad de persona monitoreando cada proceso
 \begin{enumerate}
     \item El sistema se podra realizar pedir productos en linea y almacenarlo en un carrito virtual
     \item El sistema no debe permitir qué clientes qué sobrepasaron el credito .
@@ -32,4 +34,9 @@ Al agregar más secciones y volver a compilar, el índice se actualizará solo.
 \section{Caracteristicas de matención} %Características de escalibilidad/actualización/mantención del sistema: Caracteriza un sistema como solución al problema planteado.
 \section{Interfaz del sistema} %Interfaz del sistema.
 \section{MER}
+\subsection{restricciones no moledeable}
+\begin{abstract}
+    \item La 
+    \item 
+\end{abstract}
 \end{document}
